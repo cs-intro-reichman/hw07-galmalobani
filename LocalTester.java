@@ -32,7 +32,7 @@ public class LocalTester {
         testHandler.conclusion();
     }
 
-
+ 
     public static TesterQuestionEnum isValidQuestion(String input) {
         TesterQuestionEnum[] questions = TesterQuestionEnum.values();
         TesterQuestionEnum questionSelected = null;
